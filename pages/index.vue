@@ -12,7 +12,7 @@
       <SecondView />
     </section>
     <section class="section">
-      <ThirdView />
+      <ThirdView class="relative"/>
     </section>
     <section class="section">
       <FourView />
@@ -53,4 +53,5 @@ export default {
 *{
   box-sizing: border-box;
 }
+
 </style>
