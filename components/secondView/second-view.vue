@@ -1,5 +1,5 @@
 <template>
-  <MainContainer>
+  <MainContainer id="about">
     <div class="md:max-w-sm -mt-8 mb-6 md:m-0">
       <h3 class="font-bold text-4xl dark:text-white">ABOUT</h3>
       <p class="dark:text-white py-3 text-lg">

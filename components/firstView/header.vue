@@ -64,7 +64,7 @@
         <!-- Menu on descktop -->
         <nav class="hidden md:flex space-x-10">
           <a
-            href="#"
+            :href="item.link"
             v-for="item in nav"
             :key="item.title"
             class="
@@ -164,7 +164,7 @@
           <div class="mt-6">
             <nav class="grid gap-y-8">
               <a
-                href="#"
+                :href="item.link"
                 v-for="item in nav"
                 :key="item.title"
                 class="
@@ -246,8 +246,8 @@ export default {
   data() {
     return {
       nav: [
-        { title: "About", icon: "" },
-        { title: "Proyects", icon: "" },
+        { title: "About", icon: "", link:"#about" },
+      
       ],
       socialNav: ["Instagram", "Phone", "LinkedIn", "Whatsapp"],
       openNavMobile: false,
