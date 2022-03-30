@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-2">
+  <div class="flex flex-wrap justify-center">
     <div
       class="flex flex-col items-center justify-center m-3 w-24"
       v-for="item in listTecnologies"
@@ -14,7 +14,24 @@
 export default {
   data() {
     return {
-      listTecnologies: [{ text: "Html5", img: "tecnologies/html5.png" }, { text: 'Css3', img: 'tecnologies/css3.png'}],
+      listTecnologies: [
+          { text: "Html5", img: "tecnologies/html5.png" }, 
+          { text: 'Css3', img: 'tecnologies/css3.png'},
+          { text: 'Scss', img: 'tecnologies/css3.png'},
+          { text: 'NodeJs', img: 'tecnologies/css3.png'},
+          { text: 'Vue.js', img: 'tecnologies/css3.png'},
+          { text: 'Nuxt.js', img: 'tecnologies/css3.png'},
+          { text: 'Nest', img: 'tecnologies/css3.png'},
+          { text: 'Tailwind', img: 'tecnologies/css3.png'},
+          { text: 'Flutter', img: 'tecnologies/css3.png'},
+          { text: 'Wordpress', img: 'tecnologies/css3.png'},
+          { text: 'MySql', img: 'tecnologies/css3.png'},
+          { text: 'Mongodb', img: 'tecnologies/css3.png'},
+          { text: 'Git', img: 'tecnologies/css3.png'},
+          { text: 'Github', img: 'tecnologies/css3.png'},
+          { text: 'Docker', img: 'tecnologies/css3.png'},
+          { text: 'Heroku', img: 'tecnologies/css3.png'}
+          ],
     };
   },
 };

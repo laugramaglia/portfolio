@@ -12,7 +12,7 @@
     <div class="paragraph-box">
       <p class="text-gray-800 dark:text-white text-lg">
         i'm an enthusiast, learning and developing complement each other and I
-        like both. i've been working on web development for more than 2 years as
+        like both. i've been working on web development for more than 3 years as
         a freelance.
       </p>
     </div>

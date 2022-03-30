@@ -51,7 +51,7 @@
     </MainContainer>
     <div class="h-screen w-full flex items-center justify-center">
       <div
-      class="relative z-10 p-10 popup bg-white dark:bg-gray-900 border border-gray-400 dark:border-gray-900 rounded-3xl "
+      class="relative z-10 p-10 popup bg-white dark:bg-gray-900 border border-gray-400 dark:border-gray-900 rounded-3xl overflow-y-auto md:rounded-none lg:rounded-3xl"
       :class="{ 'active': popUpIsActive }"
     >
           <button class="absolute right-3 top-3 h-6 w-6 dark:text-white align-right" @click="popUpIsActive = false">
@@ -102,7 +102,7 @@ export default {
   max-width: 80%;
   max-height: 80%;
   visibility: hidden;
-  
+   scrollbar-width: thin;// auto | stable && both-edges?
   opacity: 0;
   transition: .3s ease-in;
   &.active{
