@@ -215,7 +215,8 @@
         <div class="py-6 px-5 space-y-6">
           <div class="grid grid-cols-2 gap-y-4 gap-x-8">
             <a
-              href="#"
+              :href="item.link"
+              target="_blanck"
               class="
                 text-base
                 font-medium
@@ -224,9 +225,9 @@
                 dark:text-white
               "
               v-for="item in socialNav"
-              :key="item"
+              :key="item.text"
             >
-              {{ item }}
+              {{ item.text }}
             </a>
           </div>
         </div>
@@ -249,7 +250,12 @@ export default {
         { title: "About", icon: "", link:"#about" },
       
       ],
-      socialNav: ["Instagram", "Phone", "LinkedIn", "Whatsapp"],
+      socialNav: [
+        {text:"E-mail", link:'mailto: laureanogramaglia@gmail.com' },
+         {text:"Phone"},
+         {text: "LinkedIn", link: 'https://www.linkedin.com/in/laureano-gramaglia-5648b31b2'},
+         {text: "Whatsapp", link: 'https://api.whatsapp.com/send/?phone=5493518721405&text=Hi%2C+lets+do+a+project+together...&app_absent=0'}
+         ],
       openNavMobile: false,
     };
   },
