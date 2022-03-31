@@ -24,13 +24,14 @@ export default {
           { text: 'Nest', img: 'tecnologies/nestjs.png'},
           { text: 'Tailwind', img: 'tecnologies/tailwind.png'},
           { text: 'Flutter', img: 'tecnologies/flutter.png'},
+          { text: 'Threejs', img: 'tecnologies/threejs.png'},
           { text: 'Wordpress', img: 'tecnologies/wordpress.png'},
           { text: 'MySql', img: 'tecnologies/mysql.png'},
           { text: 'Mongodb', img: 'tecnologies/mongodb.png'},
           { text: 'Git', img: 'tecnologies/git.png'},
           { text: 'Github', img: 'tecnologies/github.png'},
-          { text: 'Docker', img: 'tecnologies/docker.png'},
-          { text: 'Heroku', img: 'tecnologies/heroku.png'}
+          { text: 'Docker', img: 'tecnologies/docker.png'}, 
+          // { text: 'Heroku', img: 'tecnologies/heroku.png'}
           ],
     };
   },
